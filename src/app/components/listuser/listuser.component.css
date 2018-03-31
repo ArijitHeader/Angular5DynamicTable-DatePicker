@@ -1,0 +1,59 @@
+.table{
+    box-shadow: 0 0 5px 5px lightblue;
+    margin-right: 30%;
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+    }
+  
+ .container{
+     margin-top: 4%;
+ }
+  th{
+      background-color:aquamarine;
+      text-align: center;
+     /* white-space: nowrap; */
+  }
+  *{
+    margin:1px;
+    }
+    #mainTitle:hover{
+    box-shadow:4px 4px 4px 4px;
+    }
+    
+    @keyframes example{
+      from {box-shadow:4px 4px 4px 4px;}
+        to {box-shadow:1px 1px 1px 1px;}
+    }
+    
+    .navbar-default{
+     background-color: white;
+    }
+    .brand-centered {
+      display: flex;
+      justify-content: center;
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 0%;
+      height:60px;
+    box-shadow:4px 4px 1px 1px;
+    
+    border-radius:6px 8px;
+    background-color:lightblue;
+    animation-name: example;
+        animation-duration: 2s;
+    }
+    .brand-centered .navbar-brand {
+      display: flex;
+      align-items: center;
+      top: 10%;
+    }
+    
+    h3{
+      margin-top: 10px;
+    }
+#tableData{
+               
+}
